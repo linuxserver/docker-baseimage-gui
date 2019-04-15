@@ -63,7 +63,7 @@ full_custom_readme: |
   ##        ENVIRONMENTAL CONFIG         ##
   #########################################
   # Set correct environment variables
-  ENV TERM="xterm"
+  ENV TERM="xterm" APPNAME="firefox"
   ARG DEBIAN_FRONTEND=noninteractive
 
   #########################################
