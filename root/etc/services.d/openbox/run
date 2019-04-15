@@ -1,0 +1,17 @@
+#!/bin/execlineb -P
+
+# Redirect stderr to stdout.
+fdmove -c 2 1
+
+# Notify service manager when openbox is up
+s6-notifyoncheck -w 500 -c "fdmove -c 2 1 pipeline { obxprop --root --display :1 } grep -qe \"OB_VERSION\""
+
+# Wait until Xorg is running
+if { s6-svwait -t 10000 -U /var/run/s6/services/Xorg/ }
+
+# Drop privileges and set env
+s6-setuidgid abc
+s6-env DISPLAY=:1 HOME=/config
+
+# Execute openbox
+/usr/bin/openbox-session

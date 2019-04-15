@@ -1,0 +1,12 @@
+#!/usr/bin/with-contenv bash
+
+openbox_config_mod=$(cat /etc/xdg/openbox/rc.tail)
+
+awk -v openbox_config_mod="$openbox_config_mod" \
+    '{ if ($0 ~ "</applications>") { print openbox_config_mod } else { print $0 } }' \
+    /etc/xdg/openbox/rc.xml > /tmp/rc.xml
+mv /tmp/rc.xml /etc/xdg/openbox/rc.xml
+rm -f /tmp/rc.xml
+
+# Set number of Deskotps to 1
+sed -i -e s#"<number>4</number>"#"<number>1</number>"#1 /etc/xdg/openbox/rc.xml

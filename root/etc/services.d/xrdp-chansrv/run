@@ -1,0 +1,16 @@
+#!/bin/execlineb -P
+
+# Redirect stderr to stdout.
+fdmove -c 2 1
+
+# Notify service manager xrdp-chansrv
+s6-notifyoncheck -w 500 -c "test -S /var/run/xrdp/sockdir/xrdp_chansrv_socket_1"
+
+# Wait until Xorg is running
+if { s6-svwait -t 10000 -U /var/run/s6/services/Xorg/ }
+
+# Drop privileges and set env
+s6-setuidgid abc
+s6-env DISPLAY=:1 HOME=/config CHANSRV_LOG_PATH=/tmp
+
+/usr/sbin/xrdp-chansrv
