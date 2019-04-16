@@ -106,4 +106,6 @@ full_custom_readme: |
     * Remmina
     * Microsoft Remote Deskotp Client
 
+  The following line is only in this repo for loop testing:
+  - { date: "01.01.50:", desc: "I am the release message for this internal repo." }
   {%- endraw %}
