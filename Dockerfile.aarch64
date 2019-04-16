@@ -10,9 +10,7 @@ RUN \
  echo "**** install deps ****" && \
  apt-get update && \
  apt-get install -qy --no-install-recommends \
-	autocutsel \
 	ca-certificates \
-	curl \
 	fuse \
 	gawk \
 	libfuse2 \
