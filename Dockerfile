@@ -17,9 +17,7 @@ LABEL maintainer="HurricaneHrndz"
 RUN apt-get update \
  && apt-get -y upgrade \
  && apt-get install -qy --no-install-recommends \
-	autocutsel \
 	ca-certificates \
-	curl \
 	fuse \
 	gawk \
 	libfuse2 \
