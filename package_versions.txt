@@ -125,8 +125,8 @@ libkmod224-1ubuntu3.2
 libkrb5-26-heimdal7.5.0+dfsg-1
 libkrb5-31.16-2ubuntu0.1
 libkrb5support01.16-2ubuntu0.1
-libldap-2.4-22.4.45+dfsg-1ubuntu1.2
-libldap-common2.4.45+dfsg-1ubuntu1.2
+libldap-2.4-22.4.45+dfsg-1ubuntu1.3
+libldap-common2.4.45+dfsg-1ubuntu1.3
 libllvm81:8-3~ubuntu18.04.1
 liblocale-gettext-perl1.07-3build2
 libltdl72.4.6-2
