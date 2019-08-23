@@ -89,7 +89,7 @@ libgcrypt201.8.1-4ubuntu1.1
 libgdbm51.14.1-6
 libgdk-pixbuf2.0-02.36.11-2
 libgdk-pixbuf2.0-common2.36.11-2
-libgif75.1.4-2
+libgif75.1.4-2ubuntu0.1
 libgl11.0.0-2ubuntu2.3
 libgl1-mesa-dri19.0.8-0ubuntu0~18.04.1
 libglapi-mesa19.0.8-0ubuntu0~18.04.1
