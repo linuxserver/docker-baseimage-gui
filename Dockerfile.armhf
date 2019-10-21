@@ -18,6 +18,7 @@ RUN \
 	libxfixes3 \
 	libxml2 \
 	libxrandr2 \
+	netcat-traditional \
 	openbox \
 	pulseaudio \
 	x11-apps \
