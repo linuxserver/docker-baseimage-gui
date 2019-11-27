@@ -194,7 +194,7 @@ libthai00.1.27-2
 libthai-data0.1.27-2
 libtiff54.0.9-5ubuntu0.3
 libtinfo56.1-1ubuntu1.18.04
-libudev1237-3ubuntu10.31
+libudev1237-3ubuntu10.33
 libunistring20.9.9-0ubuntu2
 libuuid12.31.1-0.4ubuntu3.4
 libvorbis0a1.3.5-4.2
@@ -276,7 +276,7 @@ tar1.29b-2ubuntu0.1
 tzdata2019c-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.0
 ucf3.0038
-udev237-3ubuntu10.31
+udev237-3ubuntu10.33
 util-linux2.31.1-0.4ubuntu3.4
 x11-apps7.7+6ubuntu1
 x11-common1:7.7+19ubuntu7.1
