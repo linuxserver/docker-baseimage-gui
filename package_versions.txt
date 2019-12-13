@@ -161,8 +161,8 @@ libpng16-161.6.34-1ubuntu0.18.04.2
 libprocps62:3.3.12-3ubuntu1.2
 libpsl50.19.1-5build1
 libpthread-stubs0-dev0.3-4
-libpulse01:11.1-1ubuntu7.2
-libpulsedsp1:11.1-1ubuntu7.2
+libpulse01:11.1-1ubuntu7.4
+libpulsedsp1:11.1-1ubuntu7.4
 libreadline77.0-3
 libroken18-heimdal7.5.0+dfsg-1
 librsvg2-22.40.20-2
@@ -264,8 +264,8 @@ passwd1:4.5-1ubuntu2
 perl-base5.26.1-6ubuntu0.3
 procps2:3.3.12-3ubuntu1.2
 publicsuffix20180223.1310-1
-pulseaudio1:11.1-1ubuntu7.2
-pulseaudio-utils1:11.1-1ubuntu7.2
+pulseaudio1:11.1-1ubuntu7.4
+pulseaudio-utils1:11.1-1ubuntu7.4
 readline-common7.0-3
 sed4.4-2
 sensible-utils0.0.12
