@@ -1,4 +1,4 @@
 #!/usr/bin/with-contenv bash
 
-APPNAME=${APP_NAME:-"OPENBOX"}
+APPNAME=${APPNAME:-"OPENBOX"}
 sed -i -e "s#GUI_APPLICATION#$APPNAME#" /etc/xrdp/xrdp.ini
