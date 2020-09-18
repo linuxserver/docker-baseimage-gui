@@ -168,7 +168,7 @@ libpipeline11.5.0-1
 libpixman-1-00.34.0-2
 libpng16-161.6.34-1ubuntu0.18.04.2
 libprocps62:3.3.12-3ubuntu1.2
-libproxy1v50.4.15-1
+libproxy1v50.4.15-1ubuntu0.1
 libpsl50.19.1-5build1
 libpthread-stubs0-dev0.3-4
 libpulse01:11.1-1ubuntu7.10
