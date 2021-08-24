@@ -196,10 +196,10 @@ libsoup2.4-12.62.1-1ubuntu0.4
 libspeexdsp11.2~rc1.2-1ubuntu2
 libsqlite3-03.22.0-1ubuntu0.4
 libss21.44.1-1ubuntu1.3
-libssl1.11.1.1-1ubuntu2.1~18.04.9
+libssl1.11.1.1-1ubuntu2.1~18.04.10
 libstartup-notification00.12-5
 libstdc++68.4.0-1ubuntu1~18.04
-libsystemd0237-3ubuntu10.50
+libsystemd0237-3ubuntu10.51
 libtasn1-64.13-2
 libtdb11.3.15-2
 libthai00.1.27-2
@@ -271,7 +271,7 @@ ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
 netcat-traditional1.10-41.1
 openbox3.6.1-7ubuntu0.1
-openssl1.1.1-1ubuntu2.1~18.04.9
+openssl1.1.1-1ubuntu2.1~18.04.10
 passwd1:4.5-1ubuntu2
 perl-base5.26.1-6ubuntu0.5
 procps2:3.3.12-3ubuntu1.2
