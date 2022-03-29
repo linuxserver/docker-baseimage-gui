@@ -56,11 +56,11 @@ libaudit-common1:2.8.2-1ubuntu1.1
 libblkid12.31.1-0.4ubuntu3.7
 libbsd00.8.7-1ubuntu0.1
 libbz2-1.01.0.6-8.1ubuntu0.2
-libc62.27-3ubuntu1.4
+libc62.27-3ubuntu1.5
 libcairo21.15.10-2ubuntu0.1
 libcap21:2.25-1.2
 libcap-ng00.7.7-3.1
-libc-bin2.27-3ubuntu1.4
+libc-bin2.27-3ubuntu1.5
 libcom-err21.44.1-1ubuntu1.3
 libcroco30.6.12-2
 libcurl47.58.0-2ubuntu3.16
@@ -196,7 +196,7 @@ libsoup2.4-12.62.1-1ubuntu0.4
 libspeexdsp11.2~rc1.2-1ubuntu2.1
 libsqlite3-03.22.0-1ubuntu0.4
 libss21.44.1-1ubuntu1.3
-libssl1.11.1.1-1ubuntu2.1~18.04.14
+libssl1.11.1.1-1ubuntu2.1~18.04.15
 libstartup-notification00.12-5
 libstdc++68.4.0-1ubuntu1~18.04
 libsystemd0237-3ubuntu10.53
@@ -271,7 +271,7 @@ ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
 netcat-traditional1.10-41.1
 openbox3.6.1-7ubuntu0.1
-openssl1.1.1-1ubuntu2.1~18.04.14
+openssl1.1.1-1ubuntu2.1~18.04.15
 passwd1:4.5-1ubuntu2.2
 perl-base5.26.1-6ubuntu0.5
 procps2:3.3.12-3ubuntu1.2
@@ -284,7 +284,7 @@ sensible-utils0.0.12
 shared-mime-info1.9-2
 ssl-cert1.0.39
 sysvinit-utils2.88dsf-59.10ubuntu1
-tar1.29b-2ubuntu0.2
+tar1.29b-2ubuntu0.3
 tzdata2021e-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.2
 ucf3.0038
